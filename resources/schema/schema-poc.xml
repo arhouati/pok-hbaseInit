@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema namespace="pok">
+	<tables>
+		<table name="election">
+			<column name="User">
+				<qualifier name="Name"></qualifier>
+				<qualifier name="Identifiant"></qualifier>
+				<qualifier name="Age"></qualifier>
+			</column>
+			<column name="Article">
+				<qualifier name="Title"></qualifier>
+				<qualifier name="Introduction"></qualifier>
+				<qualifier name="Date"></qualifier>
+				<qualifier name="Body"></qualifier>
+				<qualifier name="Lang"></qualifier>
+			</column>
+			<column name="Comment">
+				<qualifier name="Text"></qualifier>
+				<qualifier name="Date"></qualifier>
+				<qualifier name="Lang"></qualifier>
+				<qualifier name="mention_Macron"></qualifier>
+				<qualifier name="mention_Fillon"></qualifier>
+				<qualifier name="mention_LePen"></qualifier>
+			</column>
+		</table>	
+		<table name="data-positive-new">
+			<column name="User">
+				<qualifier name="Name"></qualifier>
+				<qualifier name="Identifiant"></qualifier>
+				<qualifier name="Age"></qualifier>
+			</column>
+			<column name="Article">
+				<qualifier name="Title"></qualifier>
+				<qualifier name="Introduction"></qualifier>
+				<qualifier name="Date"></qualifier>
+				<qualifier name="Body"></qualifier>
+				<qualifier name="Lang"></qualifier>
+			</column>
+			<column name="Comment">
+				<qualifier name="Text"></qualifier>
+				<qualifier name="Date"></qualifier>
+				<qualifier name="Lang"></qualifier>
+			</column>
+		</table> 
+		<table name="data-negative-new">
+			<column name="User">
+				<qualifier name="Name"></qualifier>
+				<qualifier name="Identifiant"></qualifier>
+				<qualifier name="Age"></qualifier>
+			</column>
+			<column name="Article">
+				<qualifier name="Title"></qualifier>
+				<qualifier name="Introduction"></qualifier>
+				<qualifier name="Date"></qualifier>
+				<qualifier name="Body"></qualifier>
+				<qualifier name="Lang"></qualifier>
+			</column>
+			<column name="Comment">
+				<qualifier name="Text"></qualifier>
+				<qualifier name="Date"></qualifier>
+				<qualifier name="Lang"></qualifier>
+			</column>
+		</table>
+	</tables>
+</schema>
